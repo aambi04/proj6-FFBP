@@ -1,0 +1,11 @@
+.header{
+    color: wheat;
+    font-family:fantasy;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 150%;
+    padding: 20px;
+    text-align: center;
+    grid-area: header;
+}
