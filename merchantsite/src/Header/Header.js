@@ -4,7 +4,7 @@ import './Header.css';
 class Header extends Component {
     render() {
         return (
-        <div className="header"> Header </div>
+        <div className="header"> Merchant Site </div>
 
         );
     }

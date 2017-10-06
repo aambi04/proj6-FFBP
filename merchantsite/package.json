@@ -6,7 +6,8 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "0.9.x",
-    "styled-components": "^2.2.0"
+    "styled-components": "^2.2.0",
+    "paypal-checkout": "^4.0.84"
   },
   "devDependencies": {},
   "scripts": {

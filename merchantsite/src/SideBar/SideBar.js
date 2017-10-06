@@ -14,7 +14,7 @@ const SideBarStyle = styled(Box)`
 export default class SideBar extends Component {
     render() {
         return (
-            <div className="sidebar"> Side </div>
+            <div className="sidebar"> Sandbox testing :) </div>
         );
     }
 };
