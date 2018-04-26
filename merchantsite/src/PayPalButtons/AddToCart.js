@@ -1,16 +1,17 @@
 import React, {Component} from 'react';
+import './PayPalButtons.css';
 
 export default class AddToCart extends Component {
 
     render() {
         return (
-            <div>
+            <div className="cart">
                 <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick"/>
                         <input type="hidden" name="hosted_button_id" value="97KZH277EQDZE"/>
                             <table>
                                 <tbody>
-                                    <tr><td><input type="hidden" name="on0" value="Name of drop-down menu"/>Add number of items to cart</td></tr>
+                                    <tr><td><input type="hidden" name="on0" value="Name of drop-down menu"/></td></tr>
                                     <tr><td><select name="os0" >
                                         <option value="1 item">1 item $10.00 USD</option>
                                         <option value="2 items">2 items $100.00 USD</option>

@@ -4,7 +4,7 @@ export default class CheckoutButton extends Component {
   render() {
       return (
           <div className="checkoutButton">
-              <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+              <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr?locale=GB" method="post">
                   <input type="hidden" name="cmd" value="_s-xclick" />
                       <input type="hidden" name="hosted_button_id" value="ZQ9ZJX3NMMM84" />
                           <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />

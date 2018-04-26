@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import paypal from 'paypal-checkout';
 import props from 'prop-types';
+import './PayPalButtons.css';
 
 const Button = paypal.Button.driver('react', { React, ReactDOM });
 
@@ -33,13 +34,15 @@ export default class ExpressCheckout extends React.Component {
 
     render() {
         return (
-            <Button
-                commit={true}
-                env="sandbox"
-                client={this.state.client}
-                payment={ (data, actions) => this.payment(data, actions) }
-                onAuthorize={ (data, actions) => this.onAuthorize(data, actions) }
-            />
+            <div className="pp" >
+                <Button
+                    commit={true}
+                    env="sandbox"
+                    client={this.state.client}
+                    payment={ (data, actions) => this.payment(data, actions) }
+                    onAuthorize={ (data, actions) => this.onAuthorize(data, actions) }
+                />
+            </div>
         );
     }
 }

@@ -9,9 +9,10 @@ class Body extends Component {
         return (
             //todo: style boxes nicer
             <div className="content">
-                <div className="box e"> <CheckoutButton/> </div>
-                <div className="box f"> <AddToCart/> </div>
-                <div className="box g"> <ExpressCheckout/> <PayPalCreditButton /> </div>
+                <div className="box e"> <div className="box-title">MiniBrowser Buttons</div>
+                    <ExpressCheckout/> <PayPalCreditButton/>  </div>
+                <div className="box f"> <div className="box-title">Update cart</div><AddToCart/> </div>
+                <div className="box g"> <div className="box-title">Webapps/shoppingcart Redirect</div><CheckoutButton/> </div>
 
              </div>
         );

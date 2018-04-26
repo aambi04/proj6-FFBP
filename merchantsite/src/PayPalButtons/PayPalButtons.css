@@ -1,6 +1,23 @@
-.paypal-button-container{
-    label: 'credit';
-    size:  'small';
-    shape: 'rect';
 
+.pp{
+    display:inline;
+    float:left;
+    padding-left:15%;
+}
+
+.ppc{
+    display:inline;
+    float:right;
+    padding-right:15%;
+}
+
+form{
+    display: inline-block;
+
+}
+.cart{
+    text-align:center;
+}
+.checkoutButton{
+    text-align: center;
 }

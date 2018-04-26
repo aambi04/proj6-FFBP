@@ -1,8 +1,11 @@
 .footer{
     grid-area: footer;
     background-color: cadetblue;
+    background-image: url('elephant-footer.png');
+    background-size: 400px 70px;
     color: #fff;
     border-radius: 5px;
     padding: 20px;
     font-size: 150%;
+    height: 78%;
 }
